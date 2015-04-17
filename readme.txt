@@ -7,7 +7,7 @@ Tested up to: 4.1.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Plugin to add a custom post type called resources that adds the functionality to review each resource. 
+Plugin to add a custom post type called resources that adds the functionality to review each resource. The reviews can be have section added to provide a more detailed review. Each section has the ability to add a star rating which is then calculated to provide an overall rating based on all the sections.
 
 == Description ==
 Plugin to add a custom post type called resources that adds the functionality to review each resource. The reviews can be have section added to provide a more detailed review. Each section has the ability to add a star rating which is then calculated to provide an overall rating based on all the sections.
@@ -30,6 +30,8 @@ Q. How do i show the resource reviews?
 A. Add the shortcode [resources] to the page you would like the reviews to show on
 
 == Screenshots ==
+
+1. assets/nathanhensher-com-resource-review-shot1.jpg
 
 1. http://nathanhensher.com/wp-content/uploads/2015/04/nathanhensher-com-resource-review-shot1.jpg
 
