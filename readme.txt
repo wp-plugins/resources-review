@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Plugin to add a custom post type called resources that adds the functionality to review each resource. 
 
 == Description ==
-Plugin to add a custom post type called resources that adds the functionality to review each resource. The reviews can be have section added to provide a more detailed review. Each section has the ability to add a star rating which is then calculated to provide an overall rating based on all the sections.
+Plugin to add a custom post type called resources that adds the functionality to review each resource. The reviews have the option to add sections to provide a more detailed review. Each section has the ability to add a star rating which is then calculated to provide an overall rating based on all the sections.
 
 == Installation ==
 
