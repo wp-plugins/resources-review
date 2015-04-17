@@ -35,7 +35,7 @@ A. Add the shortcode [resources] to the page you would like the reviews to show 
 
 1. /assets/nathanhensher-com-resource-review-shot1.jpg
 
-2. http://nathanhensher.com/wp-content/uploads/2015/04/nathanhensher-com-resource-review-shot1.jpg
+2. http://plugins.svn.wordpress.org/resources-review/assets/nathanhensher-com-resource-review-shot1.jpg
 
 == Changelog ==
 
