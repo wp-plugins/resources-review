@@ -26,17 +26,25 @@ Plugin to add a custom post type called resources that adds the functionality to
 
 == Frequently Asked Questions ==
 
-Q. How do i show the resource reviews?
+= Q. How do i show the resource reviews? =
+
 A. Add the shortcode [resources] to the page you would like the reviews to show on
+
 
 == Screenshots ==
 
-1. assets/nathanhensher-com-resource-review-shot1.jpg
+1. /assets/nathanhensher-com-resource-review-shot1.jpg
 
-1. http://nathanhensher.com/wp-content/uploads/2015/04/nathanhensher-com-resource-review-shot1.jpg
+2. http://nathanhensher.com/wp-content/uploads/2015/04/nathanhensher-com-resource-review-shot1.jpg
 
 == Changelog ==
-0.0 Initial Commit 
+
+= 1.0 =
+	1.0 Ready to download
+	- this plugin is ready to download, however, due to this being my first plugin testing is still on-going. Please feel free to <a target="_blank" href="http://nathanhensher.com/contact">contact me</a> if you have and questions or improvements.
+
+= 0.0 =
+	0.0 Initial Commit 
 
 == Donations ==
 
