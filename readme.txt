@@ -8,7 +8,7 @@ Stable tag: 4.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Plugin to add a custom post type called resources that includes the functionality to review each resource. 
+Plugin to add a custom post type called resources that includes the functionality to review each resource and a calculated star rating. 
 
 == Description ==
 The Resources Review plugin adds a custom post type called resources that includes the functionality to review each resource. The reviews can have section added to provide a more detailed review. Each section has the ability to add a star rating which is then calculated to provide an overall rating based on all the sections.
