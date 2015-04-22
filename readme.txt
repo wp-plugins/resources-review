@@ -11,7 +11,19 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Adds a custom post type called resources that includes the functionality to review each resource and a calculated star rating based on your unique sections. 
 
 == Description ==
-The Resources Review plugin adds a custom post type called resources that includes the functionality to review each resource. The reviews can have section added to provide a more detailed review. Each section has the ability to add a star rating which is then calculated to provide an overall rating based on all the sections.
+The Resources Review is a simple to use plugin that adds a custom post type called resources. It includes the functionality to review each resource. The reviews can be broken down into sections to provide a more detailed review. Each section has the ability to add a star rating which is then calculated to provide an overall rating based on all the sections.
+
+The sections are added as a repeatable field, this means you can add as many sections as you need to rate the resource. The star rating will still take the average based on each sections star rating. 
+
+= Features =
+* Creates custom post type for resources
+* Adds fields for the review including; Price, Url and the repeatable field sections
+* Enables you to create review sections
+* Each review section has its own star rating
+* Star rating is automatically calculated based on each review section
+	- For example: Resource Usability: 5 Stars, Resource Content: 2 Stars would make the overall star rating 3 stars
+* Creates the taxonomy "Media type" 
+* Ability to add and image for each section
 
 == Installation ==
 
