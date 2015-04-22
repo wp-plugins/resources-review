@@ -4,6 +4,7 @@ Tags: Review, Resources, Resource, Star, Rating, Star Rating, Book Review
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKZA4E6LYDU6W
 Requires at least: 4.0
 Tested up to: 4.1.2
+Stable tag: 4.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -45,7 +46,7 @@ A. Add the shortcode [resources] to the page you would like the reviews to show 
 
 = 1.0 =
 	1.0 Ready to download
-	- this plugin is ready to download, however, due to this being my first plugin testing is still on-going. Please feel free to <a target="_blank" href="http://nathanhensher.com/contact">contact me</a> if you have and questions or improvements.
+	- this plugin is ready to download, however, due to this being my first plugin testing is still on-going. Please feel free to [contact me](http://nathanhensher.com/contact "contact me") if you have and questions or improvements.
 
 = 0.0 =
 	0.0 Initial Commit 
