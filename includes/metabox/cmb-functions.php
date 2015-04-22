@@ -48,6 +48,14 @@ function resource_metaboxes( array $meta_boxes ) {
 				'before'     => '£',
 				// 'repeatable' => true,
 			),
+			array(
+				'name'     => __( 'Media Type', 'cmb' ),
+				'desc'     => __( 'The format of resource', 'cmb' ),
+				'id'       => $prefix . 'test_multitaxonomy',
+				'type'     => 'taxonomy_multicheck',
+				'taxonomy' => 'media-type', // Taxonomy Slug
+				'inline'  => true, 
+			),
 		),
 	);
 	/**

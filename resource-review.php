@@ -97,6 +97,71 @@ function resources_post_type() {
 add_action( 'init', 'resources_post_type', 0 );
 
 //--------------------------------------------------------------------------------//	
+								//Taxonomies//
+//--------------------------------------------------------------------------------//	
+
+// Register Media Type Taxonomy
+function media_type_taxonomy() {
+
+	$labels = array(
+		'name'                       => _x( 'Media Types', 'Taxonomy General Name', 'text_domain' ),
+		'singular_name'              => _x( 'Media Type', 'Taxonomy Singular Name', 'text_domain' ),
+		'menu_name'                  => __( 'Media Type', 'text_domain' ),
+		'all_items'                  => __( 'All Media Types', 'text_domain' ),
+		'parent_item'                => __( 'Parent Media Type', 'text_domain' ),
+		'parent_item_colon'          => __( 'Parent Media Type:', 'text_domain' ),
+		'new_item_name'              => __( 'New Media Type', 'text_domain' ),
+		'add_new_item'               => __( 'Add New Media Type', 'text_domain' ),
+		'edit_item'                  => __( 'Edit Media Type', 'text_domain' ),
+		'update_item'                => __( 'Update Media Type', 'text_domain' ),
+		'separate_items_with_commas' => __( 'Separate items with commas', 'text_domain' ),
+		'search_items'               => __( 'Search Media Types', 'text_domain' ),
+		'add_or_remove_items'        => __( 'Add or remove Media Types', 'text_domain' ),
+		'choose_from_most_used'      => __( 'Choose from the most used Media Types', 'text_domain' ),
+		'not_found'                  => __( 'Media Type Not Found', 'text_domain' ),
+	);
+	
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+		'show_in_menu'				 => true,
+		'show_tagcloud'              => true,
+	
+	);
+	register_taxonomy( 'media-type', array( 'resources' ), $args );
+
+}
+
+
+// Hook into the 'init' action
+add_action( 'init', 'media_type_taxonomy', 0 );
+
+function insert_terms() {
+	$terms = array('Audio','CD','Download','DVD','Publication','Website');
+	foreach( $terms as $term ) {
+		   //intert the term
+		   wp_insert_term(
+				$term, // the term 
+				'media-type' // the taxonomy
+			);
+	}
+}
+
+add_action( 'init', 'insert_terms' );
+
+add_action('do_meta_boxes', 'move_media_type_post_box');
+
+
+function move_media_type_post_box() {
+	remove_meta_box( 'media-typediv', 'resources', 'side' );
+}
+
+
+//--------------------------------------------------------------------------------//	
 						//Overall Rating Meta box//
 //--------------------------------------------------------------------------------//	
 
@@ -181,4 +246,4 @@ function resource_includes()
 	
 	wp_enqueue_script( 'resource-script' );
 }
-add_action( 'wp_enqueue_scripts', 'resource_includes' );
+add_action( 'wp_enqueue_scripts', 'resource_includes' ); 
