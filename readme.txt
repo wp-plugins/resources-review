@@ -3,7 +3,7 @@ Contributors: nhensh
 Tags: Review, Resources, Resource, Star, Rating, Star Rating, Book Review
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKZA4E6LYDU6W
 Requires at least: 4.0
-Tested up to: 4.1.1
+Tested up to: 4.1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
