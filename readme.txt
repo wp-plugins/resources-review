@@ -39,6 +39,10 @@ A. Add the shortcode [resources] to the page you would like the reviews to show 
 
 == Changelog ==
 
+= 1.1 =
+	1.1 Taxonomy
+	- Added the taxonomy Media Type - includes standard media types.
+
 = 1.0 =
 	1.0 Ready to download
 	- this plugin is ready to download, however, due to this being my first plugin testing is still on-going. Please feel free to <a target="_blank" href="http://nathanhensher.com/contact">contact me</a> if you have and questions or improvements.
