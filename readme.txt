@@ -4,11 +4,11 @@ Tags: Review, Resources, Resource, Star, Rating, Star Rating, Book Review
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKZA4E6LYDU6W
 Requires at least: 4.0
 Tested up to: 4.1.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Adds a custom post type called resources that includes the functionality to review each resource and a calculated star rating based on your unique sections. 
+Plugin to add a custom post type called resources that includes the functionality to review each resource and a calculated star rating. 
 
 == Description ==
 The Resources Review is a simple to use plugin that adds a custom post type called resources. It includes the functionality to review each resource. The reviews can be broken down into sections to provide a more detailed review. Each section has the ability to add a star rating which is then calculated to provide an overall rating based on all the sections.
@@ -51,6 +51,8 @@ A. Add the shortcode [resources] to the page you would like the reviews to show 
 2. http://plugins.svn.wordpress.org/resources-review/assets/nathanhensher-com-resource-review-shot1.jpg
 
 == Changelog ==
+= 1.2 =
+	1.2 Fixed 'move_activitypost_box' error
 
 = 1.1 =
 	1.1 Taxonomy
