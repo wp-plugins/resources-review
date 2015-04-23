@@ -3,7 +3,7 @@
 Plugin Name: Resource Review
 Plugin URI: https://nathanhensher.com/plugins/resource-review
 Description: Adds a resource custom post type with the option to add multiple fields to review the resource.
-Version: 1.1
+Version: 1.2
 Author: Nathan Hensher
 Author URI: https://nathanhensher.com/
 */
