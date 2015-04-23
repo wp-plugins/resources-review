@@ -85,7 +85,6 @@ function resources_post_type() {
 		'has_archive'         => true,
 		'exclude_from_search' => false,
 		'publicly_queryable'  => true,
-		'register_meta_box_cb' => 'move_activitypost_box',
 		'rewrite'             => $rewrite,
 		'capabilities'        => $capabilities,
 	);
