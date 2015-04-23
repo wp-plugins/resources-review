@@ -90,7 +90,7 @@ function resources_post_type() {
 		'capabilities'        => $capabilities,
 	);
 	register_post_type( 'resources', $args );
-
+	flush_rewrite_rules();
 }
 
 // Hook into the 'init' action
@@ -228,8 +228,18 @@ add_shortcode( 'resources', 'resources_shortcode' );
 		/* Filter the single_template with our custom function*/
 //--------------------------------------------------------------------------------//	
 
+add_filter('single_template', 'resources_template');
 
+function resources_template($single) {
+    global $wp_query, $post;
 
+/* Checks for single template by post type */
+if ($post->post_type == "resources"){
+    if(file_exists(plugin_dir_path( __FILE__ ) .'single-resource.php'))
+        return plugin_dir_path( __FILE__ ) .'single-resource.php';
+}
+    return $single;
+}
 
 //--------------------------------------------------------------------------------//	
 							/* Register Files */
